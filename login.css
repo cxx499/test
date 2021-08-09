@@ -1,0 +1,89 @@
+body{
+    background-color: #94aed0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -10;
+}
+
+form{
+    width: 600px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+form p > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+form label{
+    margin-right: 20px;
+    margin-left: 50px;
+}
+#image_logo {
+    margin-top: 22px;
+}
+
+.form-item {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.form-item input {
+    width: 288px;
+    height: 48px;
+    padding-left: 30px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+}
+.form-item button {
+    width: 360px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-family: 中圆;
+    color: #597cb1;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
+.text_field {
+    width: 278px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+
+
+#forget_pwd {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    float: right;
+    top: 5px;
+
+}
+
+#forget_pwd:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#login_control {
+    padding: 0 28px;
+}

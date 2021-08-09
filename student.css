@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    /*如果div设置了float,实际上父div是没有被撑起来的*/
+}
+.header{
+    height:80px;
+    background-color: #f4f4f4;
+    color: #2b2b2b;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    line-height: 80px;
+    /*left: 0;*/
+}
+.header .logo {
+    width: 160px;
+    background-color: lightblue;
+    float: left;
+}
+
+.header .icon{
+    padding: 0 10px;
+}
+.header .icon:hover{
+    background-color: thistle;
+}
+.header .icon span{
+    display: inline-block;
+    padding: 5px 10px;
+    line-height: 1;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 15px;
+}
+.header .user:hover{
+    background-color: thistle;
+}
+.header .user{
+    width: 200px;
+    background-color: #f4f4f4;
+    font-size: 30px;
+    color: white;
+    height: 80px;
+}
+
+.header .user .a img{
+    width: 50px;height: 50px; margin-top: 15px; border-radius:50%;float: right;
+}
+/*.header .user:hover .a{*/
+/*    display: block;*/
+
+/*}*/
+/*.header .user .a a{*/
+/*    display: block;*/
+/*}*/
+.header .user .b{
+    z-index:20;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    background-color: #ffffff;
+    font-size: 29px;
+    color:black;
+    display: none;
+}
+.header .user:hover .b{
+    display: block;
+    /*经典：只要鼠标经过就显示下拉框，与.pg-header .user .b:hover 效果完全不一样*/
+}
+.header .user .b a{
+    display: block;
+}
+.content{
+
+}
+.content .menu{
+    position: absolute;
+    top: 80px;
+    bottom: 0;
+    width: 200px;
+    background-color: #dddddd;
+}
+/*.content.menu_1 p{*/
+/*    font-size: 80px; font-family: 微软雅黑;color: #fff;*/
+/*}*/
+.content .menu_1{
+    font-family:"华文细黑";
+    font-size: 30px;
+    display: block;
+    height: 80px;
+    background-color: rgba(96, 165, 194, 0.85);
+}
+.menu_1:hover {
+    color: #8b8bde;
+    text-decoration: underline;
+}
+.content .menu_2{
+    font-family:"华文细黑";
+    font-style: initial;
+    font-size: 29px;
+    display: block;
+    height: 80px;
+}
+/*.content .menu_2 .p{*/
+/*    font-size: 30px;*/
+/*    color: white;*/
+/*}*/
+.content .menu_3{
+    font-family:"华文细黑";
+    font-size: 30px;
+    display: block;
+    height: 80px;
+
+    background-color: rgba(96, 165, 194, 0.85);
+}
+.content .menu_4{
+    font-family:"华文细黑";
+
+    font-size: 30px;
+    display: block;
+    height: 80px;
+}
+.content .menu_5{
+    font-family:"华文细黑";
+    font-size: 29px;
+    display: block;
+    height: 80px;
+    background-color: rgba(93, 163, 194, 0.78);
+}
+.content .menu_6{
+    font-family:"华文细黑";
+
+    font-size: 30px;
+    display: block;
+    height: 80px;
+}
+.content .content {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+    overflow: auto;
+    z-index: 9;   /*z-index是层级，谁大谁就在上层*/
+    background-color: cadetblue;
+    font-size: 50px;}
+
